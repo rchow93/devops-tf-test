@@ -59,3 +59,6 @@ asg for webserver ec2 instance, change min, max, desired numbers in terraform.tf
 The apache2 index.html is being populated via user-data - ideally, this would be created via packer or config mgmt.
 I didn't want to overcomplicate things for you to test out my code.
 
+You can access the webserver via ssh utilizing the bastion host. You will want to use key forwarding and ssh first to
+bastion then to the webserver.
+
