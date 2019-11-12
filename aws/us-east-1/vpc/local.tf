@@ -1,0 +1,1 @@
+#this is a placeholder for storing local variables that could be used for consistent naming and other conventions.
